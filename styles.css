@@ -238,6 +238,11 @@ main { padding: 12px 18px calc(104px + env(safe-area-inset-bottom)); }
 .menu-card small { color: var(--muted); font-size: 9px; }
 .menu-card button > span:last-child { font: 300 25px Georgia, serif; color: var(--gold); }
 .danger-menu strong { color: #a44738; }
+.android-install-card { display: grid; grid-template-columns: auto 1fr; gap: 13px; align-items: center; margin-top: 18px; padding: 18px; border: 1px solid rgba(72,124,114,.25); border-radius: 20px; background: #edf5f1; }
+.android-mark { display: grid; place-items: center; width: 47px; height: 47px; border-radius: 14px; color: #fff; background: #3f8a67; font: 700 20px Georgia, serif; }
+.android-install-card .eyebrow { margin-bottom: 4px; color: #3f8a67; }
+.android-install-card h2 { margin: 0 0 5px; font: 600 15px Georgia, "Yu Mincho", serif; }
+.android-install-card p:last-child { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.6; }
 .source-card { margin-top: 18px; padding: 21px; border-radius: 20px; color: #fff; background: var(--ink); }
 .source-card dl { margin: 18px 0; }
 .source-card dl div { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-bottom: 1px solid rgba(255,255,255,.12); font-size: 11px; }
